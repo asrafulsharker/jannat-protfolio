@@ -152,7 +152,110 @@ nav.navbar.bootsnav .navbar-toggle {
     top: 0;
 }
 nav.navbar.bootsnav .navbar-toggle i{color: #d92cf9;}
+
+
+
+
+
+
+
+
 /*.navbar-toggle */
+
+
+
+/* publication  */
+
+.research {
+    padding: 80px 0;
+    background: #f9f9f9;
+}
+.publication-card {
+    background: white;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+    margin-bottom: 30px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.pub-thumbnail {
+    height: 200px;
+    overflow: hidden;
+}
+.pub-thumbnail img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: transform 0.3s;
+}
+.pub-thumbnail:hover img {
+    transform: scale(1.05);
+}
+.pub-content {
+    padding: 20px;
+    flex-grow: 1;
+}
+.pub-title {
+    font-size: 18px;
+    margin-bottom: 10px;
+    color: #333;
+}
+.pub-authors, .pub-journal {
+    font-size: 14px;
+    color: #666;
+    margin-bottom: 8px;
+}
+.pub-abstract {
+    font-size: 14px;
+    color: #555;
+    margin-bottom: 15px;
+}
+.pub-link {
+    display: inline-block;
+    margin-top: 15px;
+    background-color: #8a2be2; /* Slightly deeper purple */
+    font-weight: 600;
+    color: #fff !important;
+    padding: 8px 20px !important;
+    border-radius: 30px; /* Rounded pill shape */
+    text-decoration: none;
+    border: 2px solid transparent;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 6px rgba(138, 43, 226, 0.2);
+    text-transform: uppercase;
+    font-size: 14px;
+    letter-spacing: 0.5px;
+}
+
+.pub-link:hover {
+    background-color: transparent;
+    color: #8a2be2 !important;
+    border-color: #8a2be2;
+    box-shadow: 0 6px 10px rgba(138, 43, 226, 0.3);
+    transform: translateY(-2px);
+}
+
+.pub-link:active {
+    transform: translateY(0);
+    box-shadow: 0 2px 4px rgba(138, 43, 226, 0.3);
+}
+
+
+/* publication end  */
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
